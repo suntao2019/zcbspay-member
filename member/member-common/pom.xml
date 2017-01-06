@@ -148,7 +148,7 @@
 
 		<!-- slf logback 配置结束 -->
 		<dependency>
-			<groupId>com.paytong.platform</groupId>
+			<groupId>com.zcbspay.platform</groupId>
 			<artifactId>member-common-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
