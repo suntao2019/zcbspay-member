@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>com.zcbspay.platform</groupId>
 		<artifactId>member</artifactId>
-		<version>${project.version}</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>member-coopinsti-simple</artifactId>
 	<name>member-coopinsti-simple</name>

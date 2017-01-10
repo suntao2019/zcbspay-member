@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.zcbspay.platform</groupId>
 	<artifactId>member</artifactId>
-	<version>${project.version}</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,7 +21,7 @@
 		<rocketmq.version>3.2.6</rocketmq.version>
 		<project.version>1.0.0-SNAPSHOT</project.version>
 		<project.account.version>1.0.0-SNAPSHOT</project.account.version>
-		<git.project>https://github.com/dmcguojia/member.git</git.project>
+		<git.project>https://github.com/paytonggithub/zcbspay-memeber.git</git.project>
 	</properties>
 	<scm>
 		<connection>scm:git://${git.project}}</connection>
@@ -276,5 +275,6 @@
 		<module>member-merchant-api</module>
 		<module>member-merchant</module>
 		<module>member-merchant-simple</module>
-	</modules>
+    <module>member-individual-test</module>
+  </modules>
 </project>
