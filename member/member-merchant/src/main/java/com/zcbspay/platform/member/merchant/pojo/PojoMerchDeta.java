@@ -343,44 +343,5 @@ public class PojoMerchDeta implements Serializable{
     public void setActiveStatus(String activeStatus) {
         this.activeStatus = activeStatus;
     }
-    /**
-     * @return the merchType
-     */
-    @Column(name = "MERCHTYPE")
-    public String getMerchType() {
-        return merchType;
-    }
-    /**
-     * @param merchType the merchType to set
-     */
-    public void setMerchType(String merchType) {
-        this.merchType = merchType;
-    }
-    /**
-     * @return the parentMerchId
-     */
-    @Column(name = "PARENT_MERCHID")
-    public String getParentMerchId() {
-        return parentMerchId;
-    }
-    /**
-     * @param parentMerchId the parentMerchId to set
-     */
-    public void setParentMerchId(String parentMerchId) {
-        this.parentMerchId = parentMerchId;
-    }
-    /**
-     * @return the accountType
-     */
-    @Column(name = "ACCOUNT_TYPE")
-    public String getAccountType() {
-        return accountType;
-    }
-    /**
-     * @param accountType the accountType to set
-     */
-    public void setAccountType(String accountType) {
-        this.accountType = accountType;
-    }
     
 }

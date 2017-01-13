@@ -5,8 +5,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 	
-	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiMKService" ref="coopInstiMKServiceImpl" retries="0"  timeout="3000" version="1.0"/>
-	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiProductService" ref="coopInstiProductServiceImpl" retries="0"  timeout="3000" version="1.0"/>
-	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiService" ref="coopInstiServiceImpl" retries="0"  timeout="3000" version="1.0"/>
+	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiMKService" ref="coopInstiMKServiceImpl" retries="0"  timeout="30000" version="1.0"/>
+	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiProductService" ref="coopInstiProductServiceImpl" retries="0"  timeout="30000" version="1.0"/>
+	<dubbo:service interface="com.zcbspay.platform.member.coopinsti.service.CoopInstiService" ref="coopInstiServiceImpl" retries="0"  timeout="30000" version="1.0"/>
 	<dubbo:annotation package="com.zcbspay.platform.member.coopinsti"/>
 </beans>

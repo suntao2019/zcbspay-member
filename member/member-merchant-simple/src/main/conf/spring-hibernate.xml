@@ -62,7 +62,7 @@
 		<!-- 注解方式配置 -->
 		<property name="packagesToScan">
 			<list>
-				<value>com.zcbspay.zplatform.member.merchant.pojo</value>			
+				<value>com.zcbspay.platform.member.merchant.pojo</value>			
 			</list>
 		</property>
 

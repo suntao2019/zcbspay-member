@@ -5,14 +5,14 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 	
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberApplyService" ref="memberApplyServiceImpl"  retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberBankCardService" ref="memberBankCardServiceImpl"  retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberInfoService" ref="memberInfoServiceImpl" retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberOperationService" ref="memberOperationServiceImpl" retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberService" ref="memberServiceImpl" retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.PersonService" ref="personServiceImpl" retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.PrimayKeyService" ref="primayKeyServiceImpl" retries="0" version="1.0" timeout="3000"/>
-	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberAccountService" ref="memberAccountServiceImpl" retries="0" version="1.0" timeout="3000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberApplyService" ref="memberApplyServiceImpl"  retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberBankCardService" ref="memberBankCardServiceImpl"  retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberInfoService" ref="memberInfoServiceImpl" retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberOperationService" ref="memberOperationServiceImpl" retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberService" ref="memberServiceImpl" retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.PersonService" ref="personServiceImpl" retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.PrimayKeyService" ref="primayKeyServiceImpl" retries="0" version="1.0" timeout="10000"/>
+	<dubbo:service interface="com.zcbspay.platform.member.individual.service.MemberAccountService" ref="memberAccountServiceImpl" retries="0" version="1.0" timeout="10000"/>
 	<dubbo:annotation package="com.zcbspay.platform.member.individual"/>
 	
 </beans>

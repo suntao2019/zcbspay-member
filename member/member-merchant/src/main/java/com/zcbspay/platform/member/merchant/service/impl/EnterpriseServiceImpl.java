@@ -73,8 +73,6 @@ public class EnterpriseServiceImpl implements EnterpriseService {
     @Autowired
     private EnterpriseDetaApplyDAO enterpriseDetaApplyDAO;
     @Reference(version="1.0")
-    private MemberApplyService memberApplyService;
-    @Reference(version="1.0")
     private PrimayKeyService primayService;
     @Reference(version="1.0")
     private CoopInstiService coopInstiService;
